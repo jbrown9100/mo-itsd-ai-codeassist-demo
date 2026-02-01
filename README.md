@@ -19,10 +19,10 @@ Open: http://127.0.0.1:5000
 
 ## Where to look
 
-- Use case cards + prompts: `docs/use-case-cards.md`
-- Technical design template: `docs/technical-design-template.md`
-- Monolith for decomposition: `src/legacy/monolith.py`
-- COBOL snippet for conversion: `legacy/cobol/ELIGCALC.cbl`
+- Use case cards + prompts: [docs/use-case-cards.md](docs/use-case-cards.md)
+- Technical design template: [docs/technical-design-template.md](docs/technical-design-template.md)
+- Monolith for decomposition: [src/legacy/monolith.py](src/legacy/monolith.py)
+- COBOL snippet for conversion: [legacy/cobol/ELIGCALC.cbl](legacy/cobol/ELIGCALC.cbl)
 
 ## Notes on security
 
