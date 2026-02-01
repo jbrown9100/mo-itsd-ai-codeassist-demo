@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset='utf-8'/>
+    <title>Search</title>
+  </head>
+  <body>
+    <a href='/'>Home</a>
+    <h1>Search results</h1>
+
+    <!-- Intentional XSS risk for demo -->
+    <p>You searched for: <span data-q="{{ q }}">{{ q }}</span></p>
+
+    <ul>
+      {% for r in results %}
+        <li>{{ r['name'] }} - {{ r['agency'] }}</li>
+      {% endfor %}
+    </ul>
+
+    <!-- Intentional accessibility issue: image missing alt -->
+    <img src='https://via.placeholder.com/120' />
+  </body>
+</html>

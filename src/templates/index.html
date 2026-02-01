@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset='utf-8'/>
+    <title>Citizen Services Portal</title>
+  </head>
+  <body>
+    <h1>Services Portal</h1>
+    <p>Demo application for code modernization use cases.</p>
+
+    <h2>Search</h2>
+    <form action='/search' method='get'>
+      <!-- Intentional accessibility issue: missing label association -->
+      <input id='q' name='q' placeholder='Search by name' />
+      <button type='submit'>Search</button>
+    </form>
+
+    <h2>Eligibility</h2>
+    <p>Try: <code>/api/eligibility?income=24000&household_size=3&program=standard</code></p>
+  </body>
+</html>
